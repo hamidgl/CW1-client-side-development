@@ -1,0 +1,21 @@
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.hostels div:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.banner {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #243f3f;
+  color: #ffffff;
+  font-size: 35px;
+}

@@ -1,0 +1,38 @@
+.display-itineraries {
+  padding: 20px;
+}
+
+.itinerary-hostel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itinerary-hostel > div {
+  flex-grow: 0;
+}
+
+.itinerary-hostel div:nth-child(2) {
+  margin-left: 10px;
+  width: 50%;
+}
+
+.itinerary-stage {
+  padding: 10px;
+  background-color: #c7c7c7;
+}
+
+.stage {
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #a3a2a2;
+}
+
+.edit {
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: green;
+}

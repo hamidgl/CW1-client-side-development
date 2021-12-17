@@ -1,0 +1,11 @@
+.chart {
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  background-color: white;
+}
+
+.chart canvas {
+  width: 400px;
+  height: 400px;
+}
